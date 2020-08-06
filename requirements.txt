@@ -1,0 +1,10 @@
+Webpack (imports/exports)
+    Babel
+    Scss
+    Eslint
+    2 Modes //режимы сборки проекта
+        - Dev
+        Dev Server(автоперезагрузка хром при изменении в коде), SourseMaps (указывает модули, где мы вели разработку: for debug), Eslint(cline code), Not Minified JS & CSS
+        - Prod
+            Minified Code
+Git
