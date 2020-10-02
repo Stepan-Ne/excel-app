@@ -14,8 +14,22 @@
     color: $color;
   }
   &:hover {
+    //color: #1a73e8;
+    background: #eee;
+    cursor: pointer;
+  }
+}
+
+@mixin neButton($color: yellow) {
+  font-size: 20px;
+  padding: 5px;
+  &:hover {
     color: #1a73e8;
     background: #eee;
     cursor: pointer;
+}
+  &:active {
+    color: aquamarine;
+    background: $color;
   }
 }
